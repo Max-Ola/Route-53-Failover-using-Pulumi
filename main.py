@@ -2,7 +2,7 @@ import pulumi
 from pulumi_aws import ec2, rds, elb, autoscaling, route53
 
 # Define the regions to create the resources in
-regions = ["us-east-1", "us-east-2"]
+regions = ["us-east-1", "us-west-2"]
 
 # Define the AMI to use for the EC2 instances
 ami = "ami-0c55b159cbfafe1f0"
